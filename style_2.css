@@ -1,0 +1,39 @@
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+body{
+    margin: 0;
+}
+.title{
+    color:#FFFFFF;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    width: 20%;
+    height: 736px;
+    margin: 0;
+    float: left;
+    background-color: #65A5FA;
+}
+div.title p{
+    padding: 40px;
+}
+.main{
+    width: 78%;
+    margin-left: 2%;
+    float: right;
+}
+ p.item{
+    font-size: 20px;
+    font-weight: bold;
+  }
+span.detail{
+    display: inline-block;
+    margin-right: 20px;
+}
+span.resume{
+    display: block;
+    font-weight: bold;
+}
